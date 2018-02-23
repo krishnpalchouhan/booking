@@ -1,0 +1,35 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "Booking component",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'lite-server' 'webpack — watch'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnpalchouhan/booking.git"
+  },
+  "keywords": [
+    "booking"
+  ],
+  "author": "krishnpal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishnpalchouhan/booking/issues"
+  },
+  "homepage": "https://github.com/krishnpalchouhan/booking#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-ui-router": "^1.0.3",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "html-loader": "^0.5.5",
+    "lite-server": "^2.3.0"
+  }
+}
